@@ -1,0 +1,73 @@
+body {
+  background-image: url("/static/background.jpg");
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  color: white; /* Keep text color white for contrast */
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.chart-container {
+  width: 650px;
+  height: 400px;
+  margin: 20px auto;
+  text-align: center; /* Center align the text */
+}
+
+canvas {
+  padding: 10px; /* Space inside the border */
+  margin: 20px 0; /* Space outside the border */
+  border: 4px solid rgba(0, 0, 0, 0.5); /* White border, you can adjust the color */
+  background-color: white;
+  border-radius: 5px;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: white; /* Text color */
+  padding: 10px; /* Space inside the border */
+  margin: 20px 0; /* Space outside the border */
+  border: 2px solid #ffffff; /* White border, you can adjust the color */
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
+  text-align: center; /* Center align the text */
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#camera {
+  margin: 20px auto;
+  display: block;
+}
+
+#plant-stats {
+  color: white;
+  margin: 20px 0;
+}
+
+#greenness-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #32cd32;
+  background-color: #f0fff0;
+  border: 2px solid #adff2f;
+  padding: 10px;
+  border-radius: 8px;
+  text-shadow: 2px 2px 4px #888888;
+  display: inline-block;
+  margin: 10px;
+}
+
+#greennessHistoryChart {
+  height: 100px;
+  background-color: white;
+  margin: auto;
+  width: 50%;
+}

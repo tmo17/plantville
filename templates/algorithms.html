@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <nav class="nav bg-dark">
+      <a class="nav-link active" href="/">General</a>
+      <a class="nav-link" href="/algorithms">Algorithms</a>
+    </nav>
+    <title>Algorithms Section - Plant Monitor</title>
+    <script src="https://cdn.jsdelivr.net/npm/react@17/umd/react.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/babel-standalone/babel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div id="roisTable"></div>
+
+    <script type="text/babel">
+      class RoisTable extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = { rois: [] };
+        }
+
+        componentDidMount() {
+          fetch("/api/rois")
+            .then((response) => response.json())
+            .then((data) => this.setState({ rois: data }))
+            .catch((error) => console.error("Error fetching ROI data:", error));
+        }
+
+        render() {
+          return (
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>ROI Name</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                {this.state.rois.map((roi) => (
+                  <tr key={roi.id}>
+                    <td>{roi.id}</td>
+                    <td>{roi.name}</td>
+                    <td>{roi.details}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          );
+        }
+      }
+
+      ReactDOM.render(<RoisTable />, document.getElementById("roisTable"));
+    </script>
+  </body>
+</html>
