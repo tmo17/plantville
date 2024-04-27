@@ -1,0 +1,134 @@
+[
+    {
+        "plantID": "04052024_01",
+        "type": "Basil",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 1,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_02",
+        "type": "Basil",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 2,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_03",
+        "type": "Basil",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 3,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_07",
+        "type": "Basil",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 7,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_08",
+        "type": "Basil",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 8,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_09",
+        "type": "Basil",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 9,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_04",
+        "type": "China Aster",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 4,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_05",
+        "type": "China Aster",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 5,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_06",
+        "type": "China Aster",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 6,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_10",
+        "type": "China Aster",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 10,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_11",
+        "type": "China Aster",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 11,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    },
+    {
+        "plantID": "04052024_12",
+        "type": "China Aster",
+        "plantDate": "04/05/2024",
+        "soil": "Wonder_Soil",
+        "ROI": 12,
+        "light_Type": "Supplemented_Windowsill",
+        "water_Type": "Buried_Drip",
+        "water_Frequency": "3 Days",
+        "water_Amount": "83ml"
+    }
+]
