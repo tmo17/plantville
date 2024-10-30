@@ -1,0 +1,8 @@
+.chart-container {
+  background-color: rgba(	255,255,255, 0.80);  /* Grey with 50% transparency */
+  border-radius: 8px;                          /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     /* Shadow effect */
+  padding: 16px;                               /* Padding around the chart for aesthetics */
+}
+
+  

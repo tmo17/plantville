@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    }
+    .nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+    }
+    .nav-link:hover {
+    background-color: #555;
+    }
+    .nav-link.active {
+    background-color: #777;
+    }
+    .nav-link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    }
